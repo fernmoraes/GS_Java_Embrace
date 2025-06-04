@@ -87,7 +87,7 @@ public class Main {
         } while (opcao != 4);
     }
 
-    // Metodo utilitário para ler Double com validação
+    // Metodo utilitario para ler Double com validação
     public static double lerDouble(String mensagem) {
         while (true) {
             try {
@@ -98,7 +98,7 @@ public class Main {
         }
     }
 
-    // Metodo utilitário para ler Integer com validação
+    // Metodo utilitario para ler Integer com validação
     public static int lerInt(String mensagem) {
         while (true) {
             try {

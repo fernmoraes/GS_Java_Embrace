@@ -7,7 +7,7 @@ public class DroneMonitoramento extends Drone {
         super();
     }
 
-    // Construtor com parâmetros (herdando da superclasse)
+    // Construtor com parâmetros
     public DroneMonitoramento(String id, String modelo, double horasVoo, double areaMonitorada, double custoBase) {
         super(id, modelo, horasVoo, areaMonitorada, custoBase);
     }

@@ -21,42 +21,27 @@ public class Drone {
     }
 
     // Getters e Setters
-    public String getId() {
-        return id;
-    }
-
     public void setId(String id) {
         this.id = id;
     }
-
     public String getModelo() {
         return modelo;
     }
-
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-
-    public double getHorasVoo() {
-        return horasVoo;
-    }
-
     public void setHorasVoo(double horasVoo) {
         this.horasVoo = horasVoo;
     }
-
     public double getAreaMonitorada() {
         return areaMonitorada;
     }
-
     public void setAreaMonitorada(double areaMonitorada) {
         this.areaMonitorada = areaMonitorada;
     }
-
     public double getCustoBase() {
         return custoBase;
     }
-
     public void setCustoBase(double custoBase) {
         this.custoBase = custoBase;
     }
@@ -64,19 +49,5 @@ public class Drone {
     //Metodo que calcula o custo da operação do drone.
     public double calcularCusto() {
         return custoBase;
-    }
-
-    //Metodo sobrecarregado para exibir o resumo da missão.
-    public void mostrarResumo() {
-        System.out.println("Drone: " + modelo + " | ID: " + id);
-        System.out.println("Horas de Voo: " + horasVoo);
-        System.out.println("Área Monitorada: " + areaMonitorada + " hectares");
-        System.out.println("Custo Base: R$" + custoBase);
-    }
-
-    //Metodo sobrecarregado com mensagem personalizada.
-    public void mostrarResumo(String mensagem) {
-        System.out.println(mensagem);
-        mostrarResumo();
     }
 }
