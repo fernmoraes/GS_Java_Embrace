@@ -120,7 +120,7 @@ public class Main {
     }
 
     /**
-     * Método auxiliar para ler valores do tipo int com validação.
+     * Metodo auxiliar para ler valores do tipo int com validação.
      * Impede que o usuário digite texto em vez de números inteiros.
      *
      * @param mensagem Mensagem a ser exibida na caixa de entrada
