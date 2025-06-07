@@ -3,8 +3,23 @@ package br.com.fiap.main;
 import br.com.fiap.bean.*;
 import javax.swing.JOptionPane;
 
+/**
+ * Classe principal do sistema FireDrone Manager.
+ * Permite ao usuário interagir com os drones de monitoramento, combate e fiscalização.
+ * Utiliza JOptionPane para entrada e saída de dados e inclui tratamento de erros com try-catch.
+ * Também aplica conceitos de herança, encapsulamento e polimorfismo.
+ *
+ * @author Fernando
+ */
 public class Main {
 
+    /**
+     * Método principal que exibe o menu, coleta dados do usuário
+     * e instancia os objetos correspondentes a cada tipo de drone.
+     * Utiliza tratamento de exceções para evitar entradas inválidas.
+     *
+     * @param args argumentos da linha de comando (não utilizados)
+     */
     public static void main(String[] args) {
         int opcao;
 
@@ -87,7 +102,13 @@ public class Main {
         } while (opcao != 4);
     }
 
-    // Metodo utilitario para ler Double com validação
+    /**
+     * Método auxiliar para ler valores do tipo double com validação.
+     * Impede que o usuário digite texto em vez de números.
+     *
+     * @param mensagem Mensagem a ser exibida na caixa de entrada
+     * @return double valor numérico válido inserido pelo usuário
+     */
     public static double lerDouble(String mensagem) {
         while (true) {
             try {
@@ -98,7 +119,13 @@ public class Main {
         }
     }
 
-    // Metodo utilitario para ler Integer com validação
+    /**
+     * Método auxiliar para ler valores do tipo int com validação.
+     * Impede que o usuário digite texto em vez de números inteiros.
+     *
+     * @param mensagem Mensagem a ser exibida na caixa de entrada
+     * @return int valor inteiro válido inserido pelo usuário
+     */
     public static int lerInt(String mensagem) {
         while (true) {
             try {
