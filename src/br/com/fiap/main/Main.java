@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 public class Main {
 
     /**
-     * Método principal que exibe o menu, coleta dados do usuário
+     * Metodo principal que exibe o menu, coleta dados do usuário
      * e instancia os objetos correspondentes a cada tipo de drone.
      * Utiliza tratamento de exceções para evitar entradas inválidas.
      *
@@ -103,7 +103,7 @@ public class Main {
     }
 
     /**
-     * Método auxiliar para ler valores do tipo double com validação.
+     * Metodo auxiliar para ler valores do tipo double com validação.
      * Impede que o usuário digite texto em vez de números.
      *
      * @param mensagem Mensagem a ser exibida na caixa de entrada
